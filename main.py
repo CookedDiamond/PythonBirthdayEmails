@@ -1,4 +1,4 @@
-from csvread import getBdayList
+from csvio import getBdayList
 import datetime
 from emailsender import sendEmail
 

@@ -11,3 +11,5 @@ def getBdayList():
 			person = Person(row[0], row[1], bday)
 			persons.append(person)
 	return persons
+
+# write csv year date

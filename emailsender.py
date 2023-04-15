@@ -20,5 +20,3 @@ def sendEmail(person):
 		server.login(sender_email, password)
 		server.send_message(msg, from_addr=sender_email, to_addrs=person.email)
 		print("Send an email to " + person.name)
-
-sendEmail({})
