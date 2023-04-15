@@ -12,4 +12,4 @@ def getBdayList():
 			persons.append(person)
 	return persons
 
-# write csv year date
+# write csv year date 
